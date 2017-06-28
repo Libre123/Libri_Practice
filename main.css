@@ -1,0 +1,51 @@
+#Header {
+width: 100%;
+height: 300px;
+background-color: #c5c8cc;
+}
+
+#Navbar {
+ border-radius: 30px;
+ height: 80px;
+ width: 900px;;
+ margin-left: 490px;
+ background-color: #535659;
+ float: right;
+}
+
+#d1, #d2, #d3, #d4 {
+    height: 100%;
+    width: 180px;
+    color: #eff1f4;
+    float: left;
+    margin-left: 35px;
+    font-family: Arial;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 25px;    
+}
+
+#quotes, #q1 {
+    width: 200px;
+    height:70px;
+}
+
+#quotes {
+    padding-left: 20px;
+}
+
+
+#q2{
+    width: 600px;
+    height: 70px;
+    margin-left: 400px;
+    font-size: 20px;
+    font-family: inherit;
+    display: none;
+}
+ 
+#b0dy {
+ height: 500px;
+ width: 100%;
+ background-color: #8d929b;     
+}

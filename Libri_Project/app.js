@@ -3,6 +3,10 @@ var  express     = require("express"),
      bodyParser  = require("body-parser");
       app        = express();
 
+//DB CONFIG
+mongoose.Promise = global.Promise;
+
+//APP CONFIG
 app.set("view engine", "ejs");
 app.use(express.static("public"));
 
